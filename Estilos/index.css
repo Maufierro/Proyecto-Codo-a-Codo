@@ -1,0 +1,102 @@
+body{
+    background-color: rgb(240, 237, 207);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.3em;
+    font-size: 18px;
+    margin: 0
+}
+
+
+
+p{
+    margin-bottom: 1.6em;
+}
+
+.container{
+    width: 85%;
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+.header{
+    background: rgb(00,00,00);
+    padding: 2rem 0;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+.header a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+ }
+
+ .logo-nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navigation ul li{
+    display: inline-block;
+}
+
+.navigation ul li a:hover{
+    background-color: rgb(11, 96, 176);
+    border-radius: 20px;
+    transition: all 0.3s linear;
+}
+
+.logo-nav-container img{
+    height: 100px;
+    padding-left: 2%;
+    width: 100px;
+    transition: 0.5s;
+    object-fit: cover;
+}
+
+.logo-nav-container img:hover{
+    transform: scale(1.5);
+}
+
+.animate__fadeInUp{
+    font-size: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: 8%;
+    z-index: 1;
+    height: 400px;
+    background-image: url(https://wallpapergod.com/images/hd/fantasy-1920X1080-wallpaper-4kbcr7rddt5bjl5r.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.footer{
+    background-color: rgb(00, 00, 00);
+    text-align: center;
+    padding: 1px;
+    color: white;
+}
+
+.footer a{
+    color: white;
+    text-decoration: none;
+}
+
+.footer a:hover{
+    text-decoration: underline;
+    color: rgb(11, 96, 176);
+}
